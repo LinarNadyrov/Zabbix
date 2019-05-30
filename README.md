@@ -2,7 +2,7 @@
 Config files for zabbix
 ---
 **folder - lxc_template**
-# Протестирован на 
+- Протестирован на 
     - Proxmox 5.3
     - Ubuntu 16.04.5 LTS 
     - Zabbix server версии 4.0.0 (веб панель)
