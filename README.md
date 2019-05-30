@@ -9,8 +9,7 @@ Config files for zabbix
     - Zabbix agent версии > 3.4.15 (zabbix_agentd -V)
     - отключенный IPv6
     - версия = free from procps-ng 3.3.10 (free -V)
-
-# Шаблон мониторинга LXC в Proxmox
+- Шаблон мониторинга LXC в Proxmox
 Название шаблона PROD_Infrastrucrute (файл PROD_Infrastrucrute.xml)
 Шаблон включает в себя мониторинг
     - CPU по 8 параметрам и рисует 3 графика
@@ -19,8 +18,7 @@ Config files for zabbix
     - Ping fail по 2 параметрам и рисует 2 графика
     - Mounted filesystem discovery и рисуется график (зависит от монтированных сущностей)
     - Network interface discovery и рисуется график (зависит от количества сетевых интерфейсов)
-
-# Для того, чтобы мониторинг заработал нужно 
+- Для того, чтобы мониторинг заработал нужно 
     - файл `zabbix_container.conf` скопировать `/etc/zabbix/zabbix_agentd.d/`
     - перезагрузить zabbix agent 
 **folder - windows_template**
