@@ -1,8 +1,7 @@
 # Zabbix
 Config files for zabbix
 ---
-**folder - lxc_template**
----
+**folder - lxc_template** /n
     # Протестирован на 
         - Proxmox 5.3
         - Ubuntu 16.04.5 LTS 
