@@ -9,7 +9,7 @@ Config files for zabbix
     - Zabbix agent версии > 3.4.15 (zabbix_agentd -V)
     - отключенный IPv6
     - версия = free from procps-ng 3.3.10 (free -V)
-- Шаблон мониторинга LXC в Proxmox включает в себя мониторинг (файл PROD_Infrastrucrute.xml)
+- Шаблон мониторинга LXC в Proxmox включает в себя мониторинг (шаблон PROD_Infrastrucrute.xml)
     - CPU по 8 параметрам и рисует 3 графика
     - Memory по 4 параметрам и рисует 2 график
     - Swap по 3 параметрам и рисует 2 график
@@ -24,7 +24,7 @@ Config files for zabbix
 - Протестирован на 
     - Zabbix server версии 4.0.0 (веб панель)
     - Windows 7 Pro x64
-- Шаблон мониторинга Windows включает в себя мониторинг (файл Template_OS_Windows.xml)
+- Шаблон мониторинга Windows включает в себя мониторинг (шаблон Template_OS_Windows.xml)
     - Стандартный шаблон
     - Доработанный CPU Utilization 
     - Доработанный Memory 
