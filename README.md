@@ -1,8 +1,7 @@
 # Zabbix
 Config files for zabbix
-
-# catalog lxc_template 
-
+---
+**catalog lxc_template**
     # Протестирован на 
         - Proxmox 5.3
         - Ubuntu 16.04.5 LTS 
@@ -24,3 +23,13 @@ Config files for zabbix
     # Для того, чтобы мониторинг заработал нужно 
         - файл `zabbix_container.conf` скопировать `/etc/zabbix/zabbix_agentd.d/`
         - перезагрузить zabbix agent 
+**catalog windows_template**
+    # Протестирован на 
+        - Zabbix server версии 4.0.0 (веб панель)
+        - Windows 7 Pro x64
+    # Шаблон мониторинга Windows
+    Название шаблона Template_OS_Windows (файл Template_OS_Windows.xml)
+    Шаблон включает в себя мониторинг
+        - Стандартный шаблон
+        - Доработанный CPU Utilization 
+        - Доработанный Memory 
