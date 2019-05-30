@@ -19,6 +19,7 @@ Config files for zabbix
 - Для того, чтобы мониторинг заработал нужно 
     - файл `zabbix_container.conf` скопировать `/etc/zabbix/zabbix_agentd.d/`
     - перезагрузить zabbix agent 
+---
 **folder - windows_template**
 - Протестирован на 
     - Zabbix server версии 4.0.0 (веб панель)
