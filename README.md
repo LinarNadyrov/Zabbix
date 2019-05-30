@@ -20,7 +20,7 @@ Config files for zabbix
     - файл `zabbix_container.conf` скопировать `/etc/zabbix/zabbix_agentd.d/`
     - перезагрузить zabbix agent 
 ---
-**folder - windows_template**
+### **folder - windows_template**
 - Протестирован на 
     - Zabbix server версии 4.0.0 (веб панель)
     - Windows 7 Pro x64
