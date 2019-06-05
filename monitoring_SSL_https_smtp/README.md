@@ -4,6 +4,7 @@
    /etc/zabbix/zabbix_agentd.d/ssl.conf
 4) content file ssl.conf:
 UserParameter=ssl.check[*],/etc/zabbix/scripts/check_ssl.sh $1 $2
+
 Timeout=20
 5) scripts file:
    check_ssl.sh
