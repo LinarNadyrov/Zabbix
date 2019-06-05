@@ -35,3 +35,4 @@ Config files for zabbix
 - Мониторинг HTTPS/SMTP вычисляет (шаблон SSL Cert Expiration.xml)
     - через сколько дней "протухнет" сертификат
     - оповещает
+---
