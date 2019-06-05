@@ -28,3 +28,10 @@ Config files for zabbix
     - Стандартный шаблон
     - Доработанный CPU Utilization 
     - Доработанный Memory 
+---
+### **folder - monitoring_SSL_https_smtp**
+- Протестирован на 
+    - Zabbix server версии 4.0.0 (веб панель)
+- Мониторинг HTTPS/SMTP вычисляет (шаблон SSL Cert Expiration.xml)
+    - через сколько дней "протухнет" сертификат
+    - оповещает
