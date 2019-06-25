@@ -1,7 +1,7 @@
 # Zabbix
 Config files for zabbix
 ---
-### **folder - lxc_template**
+**folder - lxc_template**
 - Протестирован на 
     - Proxmox 5.3
     - Ubuntu 16.04.5 LTS 
@@ -20,7 +20,7 @@ Config files for zabbix
     - файл `zabbix_container.conf` скопировать `/etc/zabbix/zabbix_agentd.d/`
     - перезагрузить zabbix agent 
 ---
-### **folder - windows_template**
+**folder - windows_template**
 - Протестирован на 
     - Zabbix server версии 4.0.0 (веб панель)
     - Windows 7 Pro x64
@@ -29,10 +29,14 @@ Config files for zabbix
     - Доработанный CPU Utilization 
     - Доработанный Memory 
 ---
-### **folder - monitoring_SSL_https_smtp**
+**folder - monitoring_SSL_https_smtp**
 - Протестирован на 
     - Zabbix server версии 4.0.0 (веб панель)
 - Мониторинг HTTPS/SMTP вычисляет (шаблон SSL Cert Expiration.xml)
     - через сколько дней "протухнет" сертификат
     - оповещает
 ---
+**folder - monitoring_proxmox**
+- Мониторим
+    - "Изменился размер кластера!"
+    - скорость подключения меньше 1gbit/s!
