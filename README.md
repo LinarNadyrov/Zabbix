@@ -54,3 +54,4 @@ Config files for zabbix
 - Для того, чтобы мониторинг заработал нужно 
     - файл `ldapsearch.conf.conf` скопировать `/etc/zabbix/zabbix_agentd.d/`
     - перезагрузить zabbix agent 
+---
