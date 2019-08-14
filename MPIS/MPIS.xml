@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2019-08-04T13:08:03Z</date>
+    <date>2019-08-14T14:26:56Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -95,7 +95,7 @@
                     <snmp_community/>
                     <snmp_oid/>
                     <key>requestGetInfo</key>
-                    <delay>2m</delay>
+                    <delay>1m</delay>
                     <history>1w</history>
                     <trends>0</trends>
                     <status>0</status>
@@ -232,7 +232,7 @@
             <correlation_tag/>
             <url/>
             <status>0</status>
-            <priority>4</priority>
+            <priority>2</priority>
             <description/>
             <type>0</type>
             <manual_close>1</manual_close>
@@ -248,7 +248,7 @@
             <correlation_tag/>
             <url/>
             <status>0</status>
-            <priority>4</priority>
+            <priority>2</priority>
             <description/>
             <type>0</type>
             <manual_close>1</manual_close>
@@ -256,7 +256,7 @@
             <tags/>
         </trigger>
         <trigger>
-            <expression>{MPIS:statusCode.last()}=0 and {MPIS:failedRequestsAmount.last()}&lt;&gt;0</expression>
+            <expression>{MPIS:statusCode.last()}=0 and {MPIS:failedRequestsAmount.last()}&lt;&gt;0 and {MPIS:requestGetInfo.str()}=1</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>MPIS | statusCode=0 and failedRequestsAmount !=0 on {HOST.NAME}</name>
@@ -264,7 +264,7 @@
             <correlation_tag/>
             <url/>
             <status>0</status>
-            <priority>4</priority>
+            <priority>2</priority>
             <description/>
             <type>0</type>
             <manual_close>1</manual_close>
