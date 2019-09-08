@@ -56,7 +56,7 @@ Config files for zabbix
     - перезагрузить zabbix agent 
 ---
 **folder - MPIS**
-- Мониторинг запросов (requst) и обратбока их данных 
+- Мониторинг запросов (requst) и обработка (JSON Path) их данных 
 - Протестирован на 
     - Ubuntu 16.04.5 LTS 
     - Zabbix agent версии 3.4.15 (zabbix_agentd -V)
