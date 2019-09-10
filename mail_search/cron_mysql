@@ -1,0 +1,2 @@
+# m h dom mon dow user  command
+14,29,44,59 * * * 1-5 root        /opt/scripts/zabbix/mail_search/search_mail_db.sh
