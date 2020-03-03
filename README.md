@@ -116,4 +116,19 @@ Config files for zabbix
     - перезагрузить zabbix agent 
     (можно проверить получение данные zabbix_agentd -t 'key items')
 ---
+**folder - Temperature_Template**
+- Мониторинг температуры CPU 
+- Протестирован на 
+    - Proxmox VE 6.1 (Debian Buster 10.2) 
+    - Zabbix agent версии 4.0.4 (zabbix_agentd -V)
+- Файл 
+    - Temperature_Template.xml - шаблон мониторинга
+    - lm-sensors.sh - скрипт для обработки полученных данных 
+    - lm-sensors.conf - конфиг файл
+- Для того, чтобы мониторинг заработал нужно 
+    - установить на ОС - apt install lm-sensors 
+    - файл `lm-sensors.conf` скопировать `/etc/zabbix/zabbix_agentd.conf.d/`
+    - файл `lm-sensors.sh` скопировать `/etc/zabbix/scripts/`
+    - перезагрузить zabbix agent
+---
 
