@@ -131,4 +131,23 @@ Config files for zabbix
     - файл `lm-sensors.sh` скопировать `/etc/zabbix/scripts/`
     - перезагрузить zabbix agent
 ---
+**folder - lk**
+- Мониторинг доступности сервисов LK 
+- Протестирован на 
+    - Ubuntu 18.04.3 LTS 
+    - Zabbix agent версии 3.0.12 (zabbix_agentd -V)
+    - Docker Engine Community 19.03.5
+- Файл 
+    - lk.xml - шаблон мониторинга
+    - в шаблоне проверяется доступность главной страницы LK 
+    - check_api.sh - скрипт для проверки сервиса API 
+    - check_ldap.sh - скрипт для проверка LDAP через API
+    - db.sh - скрипт для проверки db и определения количества активных пользователей
+- Для того, чтобы мониторинг заработал нужно 
+    - файл `for_lk.conf` скопировать `/etc/zabbix/zabbix_agentd.conf.d/`
+    - файл `lk` скопировать `/etc/cron.d/`
+    - перезагрузить zabbix agent
+    - перезагрузить cron
+---
+
 
