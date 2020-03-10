@@ -2,4 +2,4 @@
 */2 * * * * root /opt/zabbix/db.sh
 */2 * * * * root /opt/zabbix/check_ldap.sh
 */2 * * * * root /opt/zabbix/check_api.sh
-
+*/3 * * * * root /opt/zabbix/deletePIDapi.sh
